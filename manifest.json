@@ -1,7 +1,7 @@
 {
   "name": "Ad Free",
   "description" : "A Chrome extension for ban advertising",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "manifest_version": 3,
   "author": "chrischen0405",
   "action": {
@@ -18,14 +18,24 @@
       "128": "static/img/logo-128.png"
     }
   },
-  "content_scripts": [{
-    "matches": [
-      "http://www.jianshu.com/*",
-      "https://www.jianshu.com/*"
-    ],
-    "css": ["css/jianshu.css"],
-    "run_at": "document_start"
-  }],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.bilibili.com/*",
+        "https://www.bilibili.com/*"
+      ],
+      "css": ["css/bilibili.css"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "http://www.jianshu.com/*",
+        "https://www.jianshu.com/*"
+      ],
+      "css": ["css/jianshu.css"],
+      "run_at": "document_start"
+    }
+  ],
   "host_permissions": [],
   "homepage_url": "https://github.com/chrischen0405/ad-free"
 }

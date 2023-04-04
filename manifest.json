@@ -1,7 +1,7 @@
 {
   "name": "Ad Free",
   "description" : "A Chrome extension for ban advertising",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "manifest_version": 3,
   "author": "chrischen0405",
   "action": {
@@ -25,6 +25,14 @@
         "https://www.bilibili.com/*"
       ],
       "css": ["css/bilibili.css"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "http://www.douyu.com/*",
+        "https://www.douyu.com/*"
+      ],
+      "css": ["css/douyu.css"],
       "run_at": "document_start"
     },
     {

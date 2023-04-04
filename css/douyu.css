@@ -1,0 +1,32 @@
+/*禁止首页两侧广告点击事件*/
+.layout-Section.layout-Slide-banner {
+  pointer-events: none;
+}
+/*头部广告按钮*/
+.Title-blockInline .Title-ad {
+  display: none;
+}
+/*底部广告区域*/
+.BottomGroup .Bottom-ad {
+  display: none;
+}
+/*直播左下角广告浮窗*/
+.ScreenBannerAd {
+  display: none;
+}
+/*底部滚动广告*/
+.PlayerToolbar-ContentCell .PlayerToolbar-signCont {
+  display: none;
+}
+/*关注底下的广告*/
+.PhoneWatch.PhoneWatch-fl {
+  display: none;
+}
+/*头部游戏tab都是广告*/
+.public-DropMenu.Game {
+  display: none;
+}
+  /*关注页面头部广告*/
+.layout-Module-head.ScrollTabFrame-head .Prompt-container {
+  display: none;
+}

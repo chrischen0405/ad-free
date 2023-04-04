@@ -1,0 +1,13 @@
+/*百度广告*/
+div[aria-label="baidu-ad"] {
+  display: none;
+}
+
+/*消息页面侧边栏广告*/
+div[aria-label="3rd-ad"] {
+  display: none;
+}
+/*文章详情页底下广告*/
+iframe {
+  display: none;
+}

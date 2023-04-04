@@ -26,7 +26,15 @@
 .public-DropMenu.Game {
   display: none;
 }
-  /*关注页面头部广告*/
+/*关注页面头部广告*/
 .layout-Module-head.ScrollTabFrame-head .Prompt-container {
+  display: none;
+}
+/*直播间浮窗广告*/
+div[class^="recommendAD"] {
+  display: none;
+}
+
+div[class^="recommendApp"] {
   display: none;
 }

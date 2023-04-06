@@ -1,0 +1,24 @@
+/*首页banner广告*/
+.ad_fullWidth {
+  display: none;
+}
+/*首页右侧广告swiper*/
+#kp_box_www_swiper {
+  display: none;
+}
+/*博客顶部banner广告*/
+#kp_box_www_swiper_ban {
+  display: none;
+}
+/*博客侧边广告*/
+.blog-slide-ad-box {
+  display: none;
+}
+/*文章详情页左右侧视窗广告*/
+.box-shadow.mb8, .programmer1Box {
+  display: none;
+}
+/*文章右侧浮窗广告*/
+#recommendAdBox {
+  display: none;
+}

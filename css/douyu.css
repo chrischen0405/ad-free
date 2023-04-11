@@ -38,3 +38,7 @@ div[class^="recommendAD"] {
 div[class^="recommendApp"] {
   display: none;
 }
+
+.BarrageSuspendedBallAd {
+  display: none;
+}

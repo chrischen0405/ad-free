@@ -10,4 +10,21 @@ div[aria-label="3rd-ad"] {
 /*文章详情页底下广告*/
 iframe {
   display: none;
+  visibility: hidden;
+}
+
+/*文章周围的浮窗广告(动力广告)*/
+div[style*="2147483647"] {
+  display: none;
+  visibility: hidden;
+}
+
+#note {
+  display: none;
+  visibility: hidden;
+}
+
+div[style*="2147483648"] {
+  display: none;
+  visibility: hidden;
 }

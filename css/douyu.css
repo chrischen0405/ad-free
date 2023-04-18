@@ -42,3 +42,15 @@ div[class^="recommendApp"] {
 .BarrageSuspendedBallAd {
   display: none;
 }
+/*下拉弹窗底部广告*/
+.DropMenuList-ad {
+  display: none;
+}
+
+.DropPane-ad {
+  display: none;
+}
+/*搜索栏弹出框底部广告*/
+.Search-ad {
+  display: none;
+}

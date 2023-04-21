@@ -1,0 +1,17 @@
+/*文章头部广告*/
+.article-heading-ad {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+/*侧边栏广告，第一个是菜单要显示*/
+.sidebar-box.re-box.re-box-large {
+  display: none;
+}
+.sidebar-box.re-box.re-box-large:first-of-type {
+  display: block;
+}
+/*文章底部广告*/
+#ad-336280 {
+  display: none;
+}

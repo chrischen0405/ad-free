@@ -1,0 +1,35 @@
+/*顶部广告*/
+#J_roomGgTop {
+  display: none;
+}
+/*右侧浮窗广告*/
+.room-gg-chat {
+  display: none;
+}
+/*顶部tab栏网游和云游戏tab*/
+.hy-nav-item-game,
+.hy-nav-item-cloudGame {
+  display: none;
+}
+/*直播间上方小广告*/
+.room-business-game {
+  display: none;
+  visibility: hidden;
+}
+/*分类tab底下的广告*/
+a[data-pos="push/navigame"] {
+  display: none;
+}
+/*首页直播底部广告栏*/
+#J_adBnM {
+  display: none;
+}
+/*左侧侧边栏底部小广告*/
+.sidebar-banner {
+  display: none;
+  visibility: hidden;
+}
+/*右侧侧边栏底部小广告*/
+#J_roomGg1 {
+  display: none;
+}

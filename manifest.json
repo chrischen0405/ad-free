@@ -1,7 +1,7 @@
 {
   "name": "Ad Free",
   "description" : "A Chrome extension for ban advertising",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "manifest_version": 3,
   "author": "chrischen0405",
   "action": {
@@ -43,6 +43,14 @@
         "https://www.douyu.com/*"
       ],
       "css": ["css/douyu.css"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "http://www.huya.com/*",
+        "https://www.huya.com/*"
+      ],
+      "css": ["css/huya.css"],
       "run_at": "document_start"
     },
     {

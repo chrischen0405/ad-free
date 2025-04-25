@@ -1,4 +1,5 @@
 /*首页广告*/
+/* 1.1.0 已失效 */
 .bili-video-card svg.bili-video-card__info--ad {
   z-index: 1000;
   background: #fff;
@@ -7,11 +8,29 @@
   width: 100%;
   height: 100%;
 }
+/* 2.0.1 */
+.bili-video-card__stats {
+  width: 100% !important;
+}
+svg.vui_icon.bili-video-card__stats--icon {
+  z-index: 1000;
+  background: #fff;
+  position: absolute;
+  width: 100% !important;
+  height: 266px !important;
+  top: -152px;
+  left: 0;
+}
+
 /*侧边广告*/
 a.ad-report.video-card-ad-small:not(:empty) {
   display: none;
 }
 /*视频底部广告*/
 #bannerAd {
+  display: none;
+}
+/* 视频页右侧广告 */
+.ad-report {
   display: none;
 }

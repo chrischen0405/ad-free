@@ -26,6 +26,9 @@ svg.vui_icon.bili-video-card__stats--icon {
 a.ad-report.video-card-ad-small:not(:empty) {
   display: none;
 }
+#slide_ad {
+  display: none;
+}
 /*视频底部广告*/
 #bannerAd {
   display: none;

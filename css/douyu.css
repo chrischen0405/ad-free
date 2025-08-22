@@ -18,6 +18,11 @@
 .XinghaiAd {
   display: none;
 }
+/* 直播间右下角广告浮窗 */
+.IconCardAdBoundsBox {
+  display: none;
+  visibility: hidden;
+}
 /*底部滚动广告*/
 .PlayerToolbar-ContentCell .PlayerToolbar-signCont {
   display: none;
@@ -28,6 +33,9 @@
 }
 /*头部游戏tab都是广告*/
 .public-DropMenu.Game {
+  display: none;
+}
+.Header-menu-link.Header-menu-game {
   display: none;
 }
 /*关注页面头部广告*/
@@ -44,6 +52,10 @@ div[class^="recommendApp"] {
 }
 
 .BarrageSuspendedBallAd {
+  display: none;
+}
+/* 直播间右侧弹幕列表上面广告 */
+#js-player-asideTopSuspension {
   display: none;
 }
 /*下拉弹窗底部广告*/
